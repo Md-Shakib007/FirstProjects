@@ -6,6 +6,7 @@ score = 0
 
 
 for i in range(1,11):
+    print("Please Enter 1(rock), 2(paper), 3(scissor)>>>")
     your_guess = int(input())
     computer_guess = randint(1,3)
 
